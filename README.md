@@ -19,7 +19,7 @@
 
 + Camera 
 
-  + 此塊長方體呈現如攝影機的效果，將另一個camer view render在此長方體上
+  + 此塊長方體呈現如攝影機的效果，將另一個camer view render在此長方體上，會隨著人物移動畫面呈現不同的樣貌。
 
   <img src=".\images\third_scene.jpg" alt="剪貼簿-8" style="zoom:67%;" />
 
@@ -44,6 +44,24 @@
 ### 執行方式
 
 在Chrome上執行請先利用Python建立Web服務
+
+1. 在終端機前往此專案目錄下執行:
+
+   ```
+   $ python3 -m http.server
+   ```
+
+   
+
+2. 前往 Chrome 在網址欄輸入
+
+   ```
+   localhost:8000
+   ```
+
+   
+
+
 
 #### 鍵盤操作:
 
