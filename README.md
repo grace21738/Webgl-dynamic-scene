@@ -33,7 +33,7 @@
 
 + 折射( Refraction )
 
-  ​	途中的雪花為refraction設計，隨機生成和選轉
+  ​	途中的雪花為refraction設計，隨機生成和旋轉
 
 + 全反射( Total Reflection  )
 
