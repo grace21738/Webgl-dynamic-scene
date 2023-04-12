@@ -19,7 +19,7 @@
 
 + Camera 
 
-  + 此塊長方體呈現如攝影機的效果，將另一個camer view render在此長方體上，會隨著人物移動畫面呈現不同的樣貌。
+  + 此塊長方體呈現如攝影機的效果，將另一個camer view render在此長方體上，會隨著人物移動畫面中的人也會移動。
 
   <img src=".\images\third_scene.jpg" alt="剪貼簿-8" style="zoom:67%;" />
 
@@ -27,7 +27,7 @@
 
   ​	player移動不會超出cube外，但player和其他物件的相對位置會更改
 
-+ texture 
++ 材質 ( Texture )
 
   ​	帳篷的紋路，和炭火的石頭皆使用bumping 產生材質。
 
