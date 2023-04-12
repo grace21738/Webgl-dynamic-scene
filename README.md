@@ -13,7 +13,7 @@
 
   + 第三視角
 
-  <img src="C:\Users\grace\Desktop\final03\40771107H_final.jpg" alt="40771107H_final" style="zoom:67%;" />
+  <img src=".\images\40771107H_final.jpg" alt="40771107H_final" style="zoom:67%;" />
 
   
 
@@ -21,7 +21,7 @@
 
   + 此塊長方體呈現如攝影機的效果，將另一個camer view render在此長方體上
 
-  <img src="C:\Users\grace\Desktop\final03\剪貼簿-8.jpg" alt="剪貼簿-8" style="zoom:67%;" />
+  <img src=".\images\third_scene.jpg" alt="剪貼簿-8" style="zoom:67%;" />
 
 + Cube scene
 
@@ -37,7 +37,7 @@
 
 + 全反射( Total Reflection  )
 
-  <img src="C:\Users\grace\Desktop\final03\剪貼簿-9.jpg" alt="剪貼簿-9" style="zoom:67%;" />
+  <img src="./images/total_reflection.jpg" alt="剪貼簿-9" style="zoom:67%;" />
 
   
 
