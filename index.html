@@ -2,9 +2,11 @@
     <head>
     <style>
     .myDiv {
+    position:absolute;
     width:500px ;height:500px;
     float:right;
     margin-right: 940;
+    margin-left: 820;
     border: 5px outset #2f8bf5;
     background-color: #101457;
     text-align: left;
@@ -19,28 +21,28 @@
         <title>WebPage Title </title>
     </head>
     <body onload="main()">
+        <div class="myDiv">
+            <h1 style = 'color: #edd18a'> 簡介: </h1>
+            <h2 style = 'color: #edd18a'> 內容: </h2>
+            <font color="#d1c784">
+            分為兩種視角，第一人稱視角為鬼的視角，而第三視角為嘿呵(紅衣角色)的視角，可以自由切換。<br>
+            場景中的雪花以refraction去設計且每個狀態為隨機生成的(場景一次有50個雪花)，x、y、z position隨機取數。<br>
+            其中，黃色大球體為dynamic reflection，可以將場景的物件和cube map 反射出來。<br>
+            帳篷的紋路，和炭火的石頭皆為有使用bumping 產生材質。<br>
+            </font>
+            <h2 style = 'color: #edd18a'> 操作: </h2>
+            <font color="#edd18a">
+                第一視角(鬼)前進: 'w' <br>
+                第一視角(鬼)後退: 's' <br>
+                切換視角(嘿呵視角): 'a' <br>
+                第一視角場景旋轉控制: 滑鼠拖移 <br>
+            </font>
+        </div>
         <canvas id="webgl" width = "800" height = "800">
             Please use a browser that support "canvas"
         </canvas>
         <script src="cuon-matrix.js"></script>
         <script src="WebGL.js"></script>
-       <div class="myDiv">
-        <h1 style = 'color: #edd18a'> 簡介: </h1>
-        <h2 style = 'color: #edd18a'> 內容: </h2>
-        <font color="#d1c784">
-        分為兩種視角，第一人稱視角為鬼的視角，而第三視角為嘿呵(紅衣角色)的視角，可以自由切換。<br>
-        場景中的雪花以refraction去設計且每個狀態為隨機生成的(場景一次有50個雪花)，x、y、z position隨機取數。<br>
-        其中，黃色大球體為dynamic reflection，可以將場景的物件和cube map 反射出來。<br>
-        帳篷的紋路，和炭火的石頭皆為有使用bumping 產生材質。<br>
-        </font>
-        <h2 style = 'color: #edd18a'> 操作: </h2>
-        <font color="#edd18a">
-            第一視角(鬼)前進: 'w' <br>
-            第一視角(鬼)後退: 's' <br>
-            切換視角(嘿呵視角): 'a' <br>
-            第一視角場景旋轉控制: 滑鼠拖移 <br>
-        </font>
-    </div>
     </body>
 </html>
 
